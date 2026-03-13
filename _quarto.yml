@@ -1,29 +1,25 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - interactive/dist/**
 
 website:
   title: "Uncertainty & Anomaly Detection"
-  site-url: "https://github.com/blithe-labs/course-uncertainty-in-ml"
+  site-url: "https://blithe-labs.github.io/course-uncertainty-in-ml/"
   navbar:
     search: true
     left:
       - text: "Home"
         href: index.qmd
       - text: "Lectures"
-        href: lectures/index.qmd
-      - text: "Labs"
-        href: labs/index.qmd
-      - text: "Slides"
-        href: slides/lecture-01.qmd
-      - text: "Syllabus"
-        href: syllabus.qmd
+        href: lecture/intro.qmd
+      - text: "Interactive"
+        href: interactive.qmd
 
 format:
   html:
-    theme:
-      light: [default, theme/theme.scss]
-    css: styles.css
+    theme: default
     toc: true
 
 execute:

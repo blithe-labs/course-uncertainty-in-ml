@@ -6,6 +6,5 @@ This course introduces uncertainty quantification, anomaly detection, and confor
 
 ## Start here
 
-- [Syllabus](syllabus.qmd)
-- [Lectures](lectures/index.qmd)
-- [Labs](labs/index.qmd)
+- [Lectures](lecture/intro.qmd)
+- [Interactive Demos](interactive.qmd)
