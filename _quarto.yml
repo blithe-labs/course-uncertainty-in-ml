@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Uncertainty & Anomaly Detection"
+  site-url: "https://github.com/blithe-labs/course-uncertainty-in-ml"
+  navbar:
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Lectures"
+        href: lectures/index.qmd
+      - text: "Labs"
+        href: labs/index.qmd
+      - text: "Slides"
+        href: slides/lecture-01.qmd
+      - text: "Syllabus"
+        href: syllabus.qmd
+
+format:
+  html:
+    theme:
+      light: [default, theme/theme.scss]
+    css: styles.css
+    toc: true
+
+execute:
+  freeze: auto
