@@ -1,0 +1,7 @@
+/.quarto/
+**/*.quarto_ipynb
+_site/
+_freeze/
+node_modules/
+interactive/dist/
+.DS_Store
