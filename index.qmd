@@ -6,6 +6,7 @@ format:
     navigation-mode: linear
     controls: true
     slide-number: false
+    include-after-body: scripts/smoke-include.html
 ---
 
 ## Slide 1
@@ -15,7 +16,3 @@ Lecture content will appear here.
 ## Slide 2
 
 Lecture content will appear here.
-
-```{=html}
-<script src="scripts/smoke.js"></script>
-```
