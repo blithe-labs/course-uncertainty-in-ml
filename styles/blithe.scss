@@ -1,0 +1,58 @@
+/*-- scss:defaults --*/
+
+$dot-size: 10px;
+$dot-color: #ccc;
+$dot-active: #333;
+$dot-gap: 12px;
+
+/*-- scss:rules --*/
+
+// Hide brand / title text
+.navbar-brand {
+  display: none !important;
+}
+
+// Strip navbar chrome — transparent, minimal height, centered
+.navbar {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  min-height: auto !important;
+  padding: 1rem 0 0.5rem !important;
+  justify-content: center !important;
+}
+
+// Center the dot row
+.navbar-nav {
+  flex-direction: row !important;
+  gap: $dot-gap;
+  justify-content: center;
+  width: 100%;
+}
+
+// Each nav link becomes a dot
+.navbar .nav-link {
+  font-size: 0 !important;          // hide text
+  padding: 0 !important;
+  width: $dot-size;
+  height: $dot-size;
+  border-radius: 50%;
+  background: $dot-color;
+  transition: background 0.2s, transform 0.2s;
+
+  &:hover {
+    background: $dot-active;
+    transform: scale(1.3);
+  }
+
+  &.active {
+    background: $dot-active;
+  }
+}
+
+// Hide toggler, search, and other navbar extras
+.navbar-toggler,
+.navbar-collapse .navbar-nav:not(:first-child),
+#quarto-search {
+  display: none !important;
+}
