@@ -50,6 +50,12 @@ $dot-gap: 12px;
   }
 }
 
+// Force navbar to stay expanded on all screen sizes
+.navbar-collapse {
+  display: flex !important;
+  justify-content: center;
+}
+
 // Hide toggler, search, and other navbar extras
 .navbar-toggler,
 .navbar-collapse .navbar-nav:not(:first-child),
