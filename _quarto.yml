@@ -5,21 +5,7 @@ project:
 website:
   title: ""
   site-url: "https://blithe-labs.github.io/course-uncertainty-in-ml/"
-  navbar:
-    search: false
-    title: ""
-    left:
-      - text: ""
-        href: index.qmd
-      - text: ""
-        href: lecture/intro.qmd
-
-format:
-  html:
-    theme: [litera, styles/blithe.scss]
-    css: styles/blithe.css
-    include-after-body:
-      text: '<script src="scripts/nav.js"></script>'
+  navbar: false
 
 execute:
   freeze: auto

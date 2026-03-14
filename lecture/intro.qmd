@@ -1,5 +1,0 @@
----
-title: "Introduction"
----
-
-Lecture content will appear here.
