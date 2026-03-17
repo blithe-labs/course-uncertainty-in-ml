@@ -9,3 +9,6 @@ website:
 
 execute:
   freeze: auto
+format:
+  html:
+    theme: [default, styles/custom.scss]
