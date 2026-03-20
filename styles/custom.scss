@@ -24,4 +24,18 @@ $font-family-monospace: "JetBrains Mono", monospace;
     text-transform: uppercase;
     opacity: 0.5;
   }
+
+  .quarto-title-authors,
+  .date {
+    font-size: 0.65em;
+  }
+
+  .quarto-title-author-name {
+    opacity: 0.9;
+  }
+
+  .quarto-title-affiliation,
+  .date {
+    opacity: 0.55;
+  }
 }
