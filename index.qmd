@@ -1,5 +1,11 @@
 ---
-title: "Uncertainty in Machine Learning"
+title: "Uncertainty in<br>Machine Learning"
+author:
+  - name: "Oliver Hennhöfer"
+    affiliation: "Content"
+  - name: "Qiongdan Shang"
+    affiliation: "Design & Layout"
+date: "March 29, 2026"
 format:
   revealjs:
     theme: [default, styles/custom.scss]
