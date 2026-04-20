@@ -6,6 +6,13 @@ $font-family-monospace: "JetBrains Mono", monospace;
 
 /*-- scss:rules --*/
 
+.reveal .slides section {
+  top: 0 !important;
+  margin-top: 0 !important;
+  transform: none !important;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,300;0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
 
 #title-slide {
