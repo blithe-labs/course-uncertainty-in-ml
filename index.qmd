@@ -4,7 +4,7 @@ author:
   - name: "Oliver Hennhöfer"
     affiliation: "Content"
   - name: "Qiongdan Shang"
-    affiliation: "Design & Layout"
+    affiliation: "Design"
 date: "March 29, 2026"
 format:
   revealjs:
@@ -12,13 +12,87 @@ format:
     navigation-mode: linear
     controls: true
     slide-number: false
+    center: false
     include-after-body: scripts/smoke-include.html
 ---
 
-## Slide 1
+## Scenario
+You are driving to visit a friend in another city.
+They ask when you will arrive so they can time dinner perfectly.<br>
+You want to give them an accurate estimate.
 
-Lecture content will appear here.
+## First Guess
+You know the distance is about 200 km.<br>
+From experience, this usually takes around 2 hours.
 
-## Slide 2
+## Adding Information
+You open a navigation app. It improves your estimate by using:
 
-Lecture content will appear here.
+- Time of day
+- Current traffic
+- Weather conditions
+
+## Knowledge is Power
+The estimate changed --- not because reality changed,<br>
+but because your knowledge improved.
+
+## On the Road
+You start driving. As you continue, the ETA keeps changing:
+
+- 2h 21m
+- 2h 27m
+- 2h 25m
+
+## What's Going On?
+Two different things are happening:
+
+- You are learning more as new information comes in
+- The world itself is unpredictable
+
+These are fundamentally different sources of uncertainty.
+
+## Thought Experiment
+Imagine an all-knowing navigation system. It knows:
+
+- fine-grained driver behavior
+- future traffic events
+- complete system state
+
+## Is this enough?
+It could predict your arrival time exactly.<br>
+No uncertainty would remain.
+
+## Knowledge Limits (Epistemic)
+In reality, your navigation system does not know everything.<br>
+As more relevant information is added, the estimate improves.
+
+This is epistemic uncertainty due to limited knowledge.<br>
+More relevant information reduces epistemic uncertainty.
+
+## Residual Variability (Aleatoric)
+Even with more and more relevant information, the ETA still fluctuates:
+
+- small events cascade (e.g., slight braking waves)
+- human behavior varies moment to moment
+- the system is inherently dynamic
+
+This remaining uncertainty is aleatoric uncertainty.<br>
+At a certain point, the information simply becomes immeasurable.
+
+## Why this Matters
+When making decisions, the distinction is critical:
+
+- If uncertainty is epistemic → collect more relevant data
+- If uncertainty is aleatoric → plan for variability
+
+Either leave ealier (robustness)<br>
+Or communicate a probable time range (uncertainty quantification)
+
+## Takeaway
+When predicting your arrival time:
+- Some uncertainty comes from not knowing enough yet
+- Some uncertainty remains even if you knew everything practical
+
+##
+
+Modeling is the act of making this distinction explicit.
